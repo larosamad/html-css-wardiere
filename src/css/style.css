@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #140830;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+nav ul{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    width: 82%;
+}
+
+nav button{
+    background-color: white;
+    color: #140830;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.min-margin{
+    margin: 20px;
+}
+
+.to-flex{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.to-flex figure, .to-flex article {
+    background: rgb(2,0,36);
+    background: linear-gradient(120deg, rgba(2,0,36,1) 0%, rgba(62,30,125,1) 100%);
+    border-radius: 20px;
+    margin: 0;
+    padding: 20px;
+    width: 30%;
+}
+
+figure h2{
+    color: #3e2182;
+    font-size: 4em;
+    margin: 0px;
+    padding-top: 20px;
+    line-height: 0;
+}
+
+blockquote{
+    margin: 0 0 40px 0;
+}
+
+.reviewer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.reviewer img{
+    border-radius: 100%;
+}
+
+.reviewer p{
+    line-height: 5px;
+}
+
+.reviewer p:last-child{
+    font-weight: 100;
+}
+
+.reviewer p:first-child{
+    font-weight: 1000;
+}
+
+.stars{
+    color: #f1bc1a;
+}
+
+section{
+    padding-top: 50px;
+}
+
+#arrow{
+    width: 30%;
+    margin: 20px;
+    text-align: center;
+}
