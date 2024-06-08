@@ -17,25 +17,46 @@ ul{
 }
 
 nav{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px 0px;
+    padding: 10px 0;
 }
 
 nav ul{
     display: flex;
     gap: 25px;
     justify-content: center;
-    width: 82%;
+    margin: 15px 0px;
+
 }
 
-nav button{
+button{
     background-color: white;
     color: #140830;
     padding: 10px 20px;
     border-radius: 30px;
+    position: absolute;
+    top: 15px;
+    right: 20px;
 }
+
+/* nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+nav ul {
+    display: flex;
+    gap: 25px;
+    flex-grow: 1; 
+    justify-content: center;}
+
+button {
+    background-color: white;
+    color: #140830;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-right: 20px;
+} */
 
 .min-margin{
     margin: 20px;
@@ -43,8 +64,9 @@ nav button{
 
 .to-flex{
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .to-flex figure, .to-flex article {
@@ -53,7 +75,9 @@ nav button{
     border-radius: 20px;
     margin: 0;
     padding: 20px;
-    width: 30%;
+    flex-grow: 1; 
+    flex-basis: 0; 
+    /* width: 30%; */
 }
 
 figure h2{
@@ -78,8 +102,8 @@ blockquote{
     border-radius: 100%;
 }
 
-.reviewer p{
-    line-height: 5px;
+.reviewer p:first-child{
+    margin-bottom:-15px;
 }
 
 .reviewer p:last-child{
